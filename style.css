@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+.w {
+	width: 1200px;
+	margin: auto;
+}
+/* header头部样式 */
+.header {
+	height: 42px;
+	background-color: pink;
+	margin: 30px auto;
+}
+.header .logo {
+	float: left;
+	width: 198px;
+	height: 42px;
+	line-height: 42px;
+	background-color: purple;
+}
+.navi {
+	float: left;
+	margin-left: 60px;
+}
+.navi ul li {
+	float: left;
+	margin: 0 15px;
+}
+.navi ul li a {
+	display: block;
+	height: 40px;
+	padding: 0 10px;
+	line-height: 42px;
+	color: #050505;
+	font-size: 18px;
+}
+.navi ul li a:hover {
+	border-bottom: 2px solid #00a4ff;
+	color: #00a4ff;
+}
