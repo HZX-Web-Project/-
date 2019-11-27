@@ -43,5 +43,6 @@ a {
 }
 .navi ul li a:hover {
 	border-bottom: 2px solid #00a4ff;
-	color: #00a4ff;
+	/* color: #00a4ff; */
+	color: red;
 }
